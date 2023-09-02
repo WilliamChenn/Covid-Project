@@ -24,28 +24,6 @@ Methods involved in our procedure were first cleaning the data by filtering out 
 ## Description of the Dataset
 The datasets utilized for our research investigation were provided by the Mexican government and contain anonymized patient-related information including pre-existing conditions. The raw dataset consists of 21 unique attributes and 1,048,576 observations, with each observation representing a single patient.  Most of the attributes contain binary data, with zeros representing “no” and ones representing “yes.” Null values or missing values are denoted with a 97 and 99. Below is a detailed description provided by Kaggle on each attribute of the dataset and the meaning of the values. 
 
-- Sex: 1 for female and 2 for male.
-- Age: of the patient.
-- Classification: Covid test findings. Values 1-3 mean that the patient was diagnosed with covid in different degrees. 4 or higher means that the patient is not a carrier of covid or that the test is inconclusive.
-- Patient type: 1 means the patient home and 2 for hospitalization.
-- Pneumonia: whether the patient already has air sacs inflammation or not. 
-- Pregnancy: whether the patient is pregnant or not.
-- Diabetes: whether the patient has diabetes or not.
-- Copd: Indicates whether the patient has Chronic obstructive pulmonary disease or not.
-- Asthma: whether the patient has asthma or not.
-- Inmsupr: whether the patient is immunosuppressed or not.
-- Hypertension: whether the patient has hypertension or not.
-- Cardiovascular: whether the patient has heart or blood vessels related disease.
-- Renal Chronic: whether the patient has chronic renal disease or not.
-- Other disease: whether the patient has another disease or not.
-- Obesity: whether the patient is obese or not.
-- Tobacco: whether the patient is a tobacco user.
-- Usmr: Indicates whether the patient treated medical units of the first, 2nd/3rd level.
-- Medical unit: type of institution of the National Health System that provided the care.
-- Intubed: whether the patient was connected to the ventilator.
-- Icu: Indicates whether the patient had been admitted to an Intensive Care Unit.
-- Date died: If the patient died, indicate the date of death, and 9999-99-99 otherwise.
-
 <img width="1189" alt="Screenshot 2023-09-02 at 10 28 56 AM" src="https://github.com/WilliamChenn/Covid-Project/assets/85557718/555bba54-5ddd-4e95-acb3-f1f1e47fb84c">
 
 **Figure 2:** _Dataframe.head()_ (first five observations of the preprocessed dataset).
