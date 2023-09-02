@@ -1,4 +1,4 @@
-# Ozone_v._Melanoma_Analysis
+# KNN Covid Analysis
 Project Presentation: https://docs.google.com/presentation/d/1NUrXpARbfYUEleM5kn4CVs9BD6nU360qjHn2lP3g0t0/edit?usp=sharing
 
 # I. Abstract
