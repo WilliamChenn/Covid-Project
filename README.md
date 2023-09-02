@@ -1,4 +1,4 @@
-# KNN Covid Analysis
+# KNN Covid Analysis 🦠📊📈 
 Project Paper: [https://docs.google.com/presentation/d/1NUrXpARbfYUEleM5kn4CVs9BD6nU360qjHn2lP3g0t0/edit?usp=sharing](https://docs.google.com/document/d/1R0KB5JaLBSXmwAdw5X_6l6kwVZgIb9h5IDjw20R_ZoM/edit?usp=sharing)
 
 # I. Abstract
@@ -12,15 +12,6 @@ COVID-19, the coronavirus, is a highly infectious disease caused by a virus, SAR
 The motivation for our research is to be able to adequately analyze and predict COVID-19 patient data, specifically the health conditions of those patients who lived and those who died. This research topic has personal significance to the researchers because we have personally been diagnosed with COVID-19 and have experienced both immediate and long-term symptoms. Furthermore, family members from China, including elderly relatives, have suffered severe health consequences from COVID-19. Over 1.1 million people have died from COVID-19 in the United States, and 6.86 million people worldwide. Being able to accurately explore and predict this data can allow for tailored and improved treatment, care, and sufficient supervisions of current and future COVID-19 patients in hospitals. The significance in this research lies specifically in the death prediction given the specific attributes of each patient. Moreover, we want to be able to identify health conditions that may signal higher risk of mortality. We will do so using the KNN algorithm to cluster patients in our dataset and generate a KNN predictive model to predict whether or not a patient will die based on their pre-existing and current medical conditions. Moreover, we will utilize the Standard deviation feature importance score to determine the relative importance of each feature in a K-Nearest Neighbors (KNN) model.
 
 There is no one-size-fits all treatment for numerous patients with COVID-19, thus analyzing this dataset with over 1 million observations will allow researchers to learn more about the various health and medical factors that highly affect or do not affect COVID-19 deaths. Our long-term goal of our research is to be able to alleviate the consequences from this illness and improve the understanding of COVID-19 deaths. 
-
-
- 
-## Research Questions
-The research questions that lie at the foundation of our investigation and guide our study are as follows: 
-  1.  Can we use the full set of medical information about patients to predict whether the individual will live or die? 
-  2.  Can we use information about the patients’ death and medical information to identify the most common disease of those who died from COVID-19?
-As such, these research questions serve as the driving factor for our analysis which will be further discussed later in the paper.
-
 
 # III. Materials and Methods
 Exploratory Data analysis and cleaning were done using the Pandas library. All data pre-processing was performed in Jupyter Notebook, an open-sourced integrated development environment (IDE). Libraries that we utilized include Sklearn, Matplotlib, Pandas, numpy, and Seaborn (Figure 1). 
